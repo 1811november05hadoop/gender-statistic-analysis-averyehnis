@@ -7,6 +7,13 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * The mapper pulls the most recent data for completion of upper 
+ *   secondary education for each country
+ * The reducer will determine which countries have a graduation rate
+ *   of less than 30%
+ *
+ */
 public class GradRateMapper extends Mapper<LongWritable, Text, Text, DoubleWritable>{
 
 	@Override

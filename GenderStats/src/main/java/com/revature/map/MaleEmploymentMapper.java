@@ -7,6 +7,13 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * The mapper pulls the ratio of males over age 15 to the total population
+ *   and the data from the year 2000 and onward
+ * The reducer will use the most recent data and compare it to the data from 2000,
+ *   and determine the percentage increase.
+ *
+ */
 public class MaleEmploymentMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
 	@Override
 	public void map(LongWritable key, Text value, Context context) 

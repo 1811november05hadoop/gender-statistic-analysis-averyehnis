@@ -7,6 +7,13 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * The mapper pulls the ratio of females to males in the labor force for the 
+ *   most recent year with data
+ * The reducer will determine which countries have a ratio of more than .15 
+ *   or less than -.15 (65% or more of the labor force is one gender)
+ *
+ */
 public class EmploymentRatioMapper extends Mapper<LongWritable, Text, Text, DoubleWritable>{
 	@Override
 	public void map(LongWritable key, Text value, Context context) 

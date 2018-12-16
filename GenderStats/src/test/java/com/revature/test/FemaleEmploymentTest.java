@@ -80,7 +80,7 @@ public class FemaleEmploymentTest {
 		
 		
 		reduceDriver.withInput(new Text(textOutput), values);
-		reduceDriver.withOutput(new Text(textOutput), new DoubleWritable(20.0));
+		reduceDriver.withOutput(new Text(textOutput), new DoubleWritable(32.865547047030597));
 		
 		reduceDriver.runTest();
 	}
@@ -89,7 +89,7 @@ public class FemaleEmploymentTest {
 	public void testMapReduce() {
 		mapReduceDriver.withInput(new LongWritable(1), new Text(testInput));
 		
-		mapReduceDriver.withOutput(new Text(textOutput), new DoubleWritable(20.0));
+		mapReduceDriver.withOutput(new Text(textOutput), new DoubleWritable(32.865547047030597));
 		
 		mapReduceDriver.runTest();
 	}

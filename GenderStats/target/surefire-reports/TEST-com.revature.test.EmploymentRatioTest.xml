@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.revature.test.MaleEmploymentTest" time="0.158" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.revature.test.EmploymentRatioTest" time="0.095" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_172/jre/lib/amd64"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.revature.test.MaleEmploymentTest" name="testReducer" time="0"/>
-  <testcase classname="com.revature.test.MaleEmploymentTest" name="testMapper" time="0.074"/>
-  <testcase classname="com.revature.test.MaleEmploymentTest" name="testMapReduce" time="0.084"/>
+  <testcase classname="com.revature.test.EmploymentRatioTest" name="testReducer" time="0.029"/>
+  <testcase classname="com.revature.test.EmploymentRatioTest" name="testMapper" time="0.034"/>
+  <testcase classname="com.revature.test.EmploymentRatioTest" name="testMapReduce" time="0.032"/>
 </testsuite>

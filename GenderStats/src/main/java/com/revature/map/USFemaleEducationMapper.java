@@ -7,6 +7,13 @@ import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Mapper;
 
+/**
+ * The mapper pulls the most recent data for completion of all levels 
+ *   of education from upper secondary and beyond by females in the US
+ * The reducer will determine the change in percentage between all years
+ *   pulled by the mapper, then average all of the values
+ *
+ */
 public class USFemaleEducationMapper extends Mapper<LongWritable, Text, Text, DoubleWritable> {
 	
 	@Override

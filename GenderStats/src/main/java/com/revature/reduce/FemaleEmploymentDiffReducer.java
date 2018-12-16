@@ -19,6 +19,6 @@ private List<Double> rates = new ArrayList<>();
 				rates.add(value.get());
 		}
 		//write the difference (change) between 2000 and the most recent year
-		context.write(key, new DoubleWritable(rates.get(rates.size()-1) - rates.get(0)));
+		context.write(key, new DoubleWritable(((rates.get(rates.size()-1) - rates.get(0))/rates.get(0))*100));
 	}
 }

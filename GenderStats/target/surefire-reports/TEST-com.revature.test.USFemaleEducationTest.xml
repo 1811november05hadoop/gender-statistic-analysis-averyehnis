@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="com.revature.test.USFemaleEducationTest" time="0.156" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="com.revature.test.USFemaleEducationTest" time="0.12" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.8.0_172/jre/lib/amd64"/>
@@ -24,7 +24,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/cloudera/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf2069327052679048080.tmp"/>
+    <property name="classworlds.conf" value="/home/cloudera/workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf5262465602876428343.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.revature.test.USFemaleEducationTest" name="testReducer" time="0.026"/>
-  <testcase classname="com.revature.test.USFemaleEducationTest" name="testMapper" time="0.047"/>
-  <testcase classname="com.revature.test.USFemaleEducationTest" name="testMapReduce" time="0.083"/>
+  <testcase classname="com.revature.test.USFemaleEducationTest" name="testReducer" time="0.039"/>
+  <testcase classname="com.revature.test.USFemaleEducationTest" name="testMapper" time="0.042"/>
+  <testcase classname="com.revature.test.USFemaleEducationTest" name="testMapReduce" time="0.039"/>
 </testsuite>
